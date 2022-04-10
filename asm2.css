@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color: #ffffff;
+}
+.header img{
+    width: 1000px;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.header .log{
+    background-color: rgb(63, 113, 223);
+    width: 9%;
+    text-align: center;
+    line-height: 30px;
+    
+}
+.header .log a{
+    text-decoration:none ;
+    color: white;
+    
+    
+}
+.header .log:hover{
+        background-color: rgb(21, 87, 230);
+        text-decoration: underline;
+    }
+.header .search{
+    float: right;
+    
+}
+.header .search input{
+    height: 24px;
+}
+.header .search button{
+    height: 22px;
+    margin-left: -3px;
+}
+.nav .menu{
+    list-style: none;
+    text-align: center;
+    background-color: dodgerblue;
+    line-height: 35px;
+    
+}
+.nav .menu li{
+    display: inline-block;
+    margin:0 10px;
+    position: relative;
+}
+.nav .menu li a{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+.menu ul.submenu{
+    position: absolute;
+    width: 170px;
+    text-align: left;
+    background-color: dodgerblue;
+    z-index: 1;
+    left: -10px;
+    display: none;
+   
+}
+.menu li:hover ul.submenu{
+    display: block;
+}
+.aside{
+    float: right;
+    width: 330px;
+    
+}
+/* tin tức mới nhất */
+
+.aside .box{
+    border: solid 2px rgba(128, 128, 128, 0.404);
+    border-top: solid 2px dodgerblue;
+    height: 515px;
+    
+}
+.aside .box ul{
+    list-style: none;
+}
+.aside .box ul li{
+    margin: 7px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    
+}
+.aside .box ul li img{
+    width: 100px;
+    padding-right: 3px;
+    margin-top: 1px;
+}
+.aside .box ul li .img1{
+    height: 76px;
+}
+.aside .box ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+.aside .box ul li .img1,.img2,.img3,.img4,.img5{
+    float: left;
+    
+}
+.aside .box ul li .t1{
+    line-height: 20px;
+    
+}
+.aside .box ul li a:hover{
+    text-decoration: underline;
+    color:dodgerblue;
+}
+/*end tin tức mới nhất*/
+/* Bài viết xem nhiều nhất */
+.aside .text2{
+    background-color: dodgerblue;
+    width: 70%;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 10px 10px 0 0;
+    margin-top: 10px;
+}
+.aside .box3 ul li img{
+    width: 100px;
+    padding-right: 3px;
+    margin-top: 1px;
+    float: left;
+
+}
+.aside .box3 ul li{
+    margin: 7px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+.aside .box3 ul{
+    list-style: none;
+}
+.aside .box3 ul li a{
+    text-decoration: none;
+    color: black;
+}
+.aside .box3 ul li a:hover{
+    color: dodgerblue;
+    text-decoration: underline;
+}
+.aside .box3{
+    border: solid 2px rgba(128, 128, 128, 0.404);
+    border-top: solid 2px dodgerblue;
+    height: 370px;
+}
+/* End "bài viết xem nhiều nhất" */
+/* liên kết website */
+select{
+    margin: 5px;
+    margin-left: 15px;
+    width: 296px;
+    height: 28px;
+    border-radius: 4px;
+}
+.aside .box4{
+    border: solid 2px rgba(128, 128, 128, 0.404);
+    border-top: solid 2px dodgerblue;
+    height: 40px;
+}
+.aside .text3{
+    background-color: dodgerblue;
+    width: 50%;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 10px 10px 0 0;
+    
+}
+/* end liên kết web */
+/*vị trí địa lí*/
+.aside .text4{
+    background-color: dodgerblue;
+    width: 40%;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 10px 10px 0 0;
+    margin-top: 10px;
+}
+.aside .box5{
+    border: solid 2px rgba(128, 128, 128, 0.404);
+    border-top: solid 2px dodgerblue;
+    height: 200px;
+}
+.aside .box5 iframe{
+    margin-left: 3px;
+    margin-top: 3px;
+}
+/*end vị trí địa lí*/
+.aside .youtube{
+    margin-top: 20px;
+}
+.artical .main{
+    float: left;
+    width: 650px;
+
+}
+.artical .box2{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.445);
+    bottom: 90px;
+    width: 640px;
+    padding: 5px;
+    
+    
+}
+.artical .box2 a{
+    color: #cdcdcd;
+    font-weight: bold;
+}
+.artical .box2 p{
+    color: #cdcdcd;
+}
+.artical .khauhieu img{ 
+    width: 640px;
+    margin-top: -80px;
+}
+footer{
+    float: left;
+    position: relative;
+     width: 100%;
+     height: auto;
+     text-align: center;
+     padding-top: 100px;
+     padding-bottom: 50px;
+    
+}

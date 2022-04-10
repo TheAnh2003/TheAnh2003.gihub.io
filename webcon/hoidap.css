@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color: #ffffff;
+}
+.header img{
+    width: 1000px;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.header .log{
+    background-color: rgb(63, 113, 223);
+    width: 9%;
+    text-align: center;
+    line-height: 30px;
+    
+}
+.header .log a{
+    text-decoration:none ;
+    color: white;
+    
+    
+}
+.header .log:hover{
+        background-color: rgb(21, 87, 230);
+        text-decoration: underline;
+    }
+.header .search{
+    float: right;
+    
+}
+.header .search input{
+    height: 24px;
+}
+.header .search button{
+    height: 22px;
+    margin-left: -3px;
+}
+.nav .menu{
+    list-style: none;
+    text-align: center;
+    background-color: dodgerblue;
+    line-height: 35px;
+    
+}
+.nav .menu li{
+    display: inline-block;
+    margin:0 10px;
+    position: relative;
+}
+.nav .menu li a{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+.menu ul.submenu{
+    position: absolute;
+    width: 170px;
+    text-align: left;
+    background-color: dodgerblue;
+    z-index: 1;
+    left: -10px;
+    display: none;
+   
+}
+.menu li:hover ul.submenu{
+    display: block;
+}
+.aside-left{
+    float: left;
+    width: 650px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.aside-left .vanban{
+    border: solid 2px rgba(39, 124, 173, 0.432);
+    background-color: rgba(0, 255, 255, 0.192);
+    padding: 10px;
+    width: 640px;
+    height: 300px;
+    
+}
+.aside-left .vanban strong, p{
+    padding-top: 8px;
+    
+}
+.aside-left .vanban form{
+    margin: 25px 20px;
+    
+}
+.aside-left .vanban form button{
+    color: #ffffff;
+    border: none;
+    outline: none;
+    background-color: rgb(8, 177, 59);
+    padding: 6px;
+    cursor: pointer;
+    
+}
+.aside-left .vanban form input{
+    width: 350px;
+    height: 27px;
+    border-radius: 3px;
+    outline: none;
+    border:  none;
+    box-shadow: 0 0 5px gray;
+}
+.aside-left .vanban form button:hover{
+    background-color: rgb(4, 126, 41);
+}
+.aside-left .vanban form input:hover, .aside-left .vanban form input:focus, .aside-left .vanban form input:active{
+    box-shadow: 0 0 5px dodgerblue;
+}
+footer{
+    float: left;
+    position: relative;
+     width: 100%;
+     height: auto;
+     text-align: center;
+     padding-top: 100px;
+     padding-bottom: 50px;
+    
+}
+.aside-right{
+    width: 350px;
+    float: right;
+}
+.aside-right .box2{
+    border: 1px solid gray;
+    width: auto;
+    height: 420px;
+}
+.aside-right .box2 .vb{
+    padding-bottom: 5px;
+    background-color: rgba(30, 143, 255, 0.822);
+    
+    padding-left: 10px;
+}
+.aside-right .box2 .noidung i{
+float: left;
+margin-top: 1px;
+padding: 7px;
+font-size: 40px;
+}
+.aside-right .box2 .noidung{
+    border-bottom: dotted 1px gray;
+    margin-bottom: 5px;
+}
+.aside-right .box2 .noidung a{
+    text-decoration: none;
+}
+.aside-right .box2 .noidung a:hover{
+    color: orange;
+}
